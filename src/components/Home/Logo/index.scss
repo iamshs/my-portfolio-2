@@ -37,3 +37,17 @@
   stroke: #ffd700;
   stroke-width: 10;
 }
+
+@media screen and (max-width:767px) {
+    .logo-container{
+      z-index: 0;
+  width: 100px;
+  height: 200px;
+  opacity: 1;
+  left: auto;
+  margin: auto;
+  animation: zoomInDown 2.5s ease-in-out 1s;
+  user-select: none;
+    }
+
+}

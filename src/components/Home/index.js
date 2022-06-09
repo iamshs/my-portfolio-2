@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <>
       <div className="container home-page">
-        <div className="text-zone">
+        <div className="text-zone ">
           <h1>
             <span className={letterClass}>H</span>
             <span className={`${letterClass} _12`}>i,</span>
@@ -73,9 +73,9 @@ const Home = () => {
            DOWNLOAD RESUME
           </Link>
         </div>
-       <div>
+     
        <Logo />
-       </div>
+     
       </div>
 
       <Loader type="pacman" />
