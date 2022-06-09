@@ -28,9 +28,12 @@ const Home = () => {
           <h1>
             <span className={letterClass}>H</span>
             <span className={`${letterClass} _12`}>i,</span>
-            <br />
+            <br/>
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
+            <br/>
+            <span className={`${letterClass} _15`}>M</span>
+            <span className={`${letterClass} _16`}>d</span>
             <img
               src={LogoTitle}
               alt="JavaScript Developer Name, Web Developer Name"
@@ -66,11 +69,13 @@ const Home = () => {
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
-          <Link to="/contact" className="flat-button">
-            RESUME
+          <Link style={{marginLeft: "5px"}} to="../../assets/Md Sholayman.pdf" target="_blank" download className="flat-button">
+           DOWNLOAD RESUME
           </Link>
         </div>
-        <Logo />
+       <div>
+       <Logo />
+       </div>
       </div>
 
       <Loader type="pacman" />
